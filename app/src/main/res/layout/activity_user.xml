@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserActivity"
+    android:background="@color/underline"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/Headerr"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@color/blue"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toStartOf="@+id/pic2"
+            android:layout_toEndOf="@+id/imageView4"
+            android:text="snlajkscnalscalkcanlcklascnaklcsnkacsnklcsnaksklcsskalcasklcask" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginBottom="12dp"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+        <ImageView
+            android:id="@+id/pic2"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="7dp"
+            android:src="@drawable/ic_baseline_add_shopping_cart_24" />
+
+        ,
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="600dp"
+        android:background="@drawable/photo"
+        android:text="  ADIDAS ULTRA BOOST 2020 CORE BLACK"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginBottom="656dp"
+        android:layout_toStartOf="@+id/ratingBar2"
+        android:background="@drawable/photo"
+        android:text="addidas"
+        android:textSize="16sp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/main"
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="424dp"
+        android:background="@color/white"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="false">
+
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="94dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/photo"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/a0" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/main"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="132dp"
+        android:background="@drawable/photo"
+        android:clickable="true"
+        android:isIndicator="false"
+        android:max="1"
+        android:numStars="5"
+        android:rating="3"
+        android:stepSize="0.5"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="47dp"
+        android:layout_height="114dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="413dp"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="47dp"
+        android:layout_height="114dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="418dp"
+
+        app:srcCompat="@drawable/ic_baseline_arrow_forward_24" />
+
+
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_width="392dp"
+        android:layout_height="176dp"
+        android:layout_below="@+id/Headerr"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="307dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="198dp"
+        android:background="@drawable/photo">
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="161dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="125dp"
+            android:background="@color/white"
+            android:text="180$"
+            android:textSize="34sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView4"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="19dp"
+            android:layout_marginBottom="-41dp"
+            android:text="- FAVOURITE"
+            android:textColor="@color/button"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="48dp"
+            android:text="Lorem ipsum dolor sit amet,  sed nisl feugiat, i netus et malesuada fames ac turpis egestas. Vivamus fermentum mi erat, at lobortis turpis fringilla sit amet. Cras sit amet purus et quam euismod molestie. Mauris ut ipsum dictum diam" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/radio_group"
+        android:layout_width="398dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="131dp"
+        android:background="@drawable/photo">
+
+        <TextView
+            android:id="@+id/color2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="69dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="13dp"
+            android:layout_toStartOf="@+id/group2"
+
+            android:text="Size :" />
+
+        <TextView
+            android:id="@+id/color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginBottom="9dp"
+            android:text="color:" />
+
+        <RadioGroup
+            android:id="@+id/group2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="29dp"
+            android:layout_marginBottom="17dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/green2"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ss" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/blue2"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/l_char" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/pink2"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/m" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/group1"
+            android:layout_width="121dp"
+            android:layout_height="15dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="199dp"
+            android:layout_marginBottom="11dp"
+            android:layout_toEndOf="@+id/color"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/green"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/green" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/blue"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/blue" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/pink"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/pink" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/red"
+                android:layout_width="19dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/red" />
+        </RadioGroup>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/photo">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/but"
+            android:text="Book mark " />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="228dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/but"
+            android:text="ADD TO CART" />
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+
